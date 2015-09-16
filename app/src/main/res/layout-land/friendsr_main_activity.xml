@@ -1,0 +1,126 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".Friendsr_Main_Activity">
+
+    <TextView
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:text="@string/text_info_main_activity"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:rowCount="2"
+            android:columnCount="3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/chandlerpreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickChandler"
+                android:id="@+id/text_view_chandler"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/joeypreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickJoey"
+                android:id="@+id/text_view_joey"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/monicapreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickMonica"
+                android:id="@+id/text_view_monica"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/phoebepreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickPhoebe"
+                android:id="@+id/text_view_phoebe"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/rachelpreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickRachel"
+                android:id="@+id/text_view_rachel"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/rosspreview"
+                android:contentDescription="@string/text_description_image_main"
+                android:clickable="true"
+                android:onClick="onClickRoss"
+                android:id="@+id/text_view_ross"/>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</LinearLayout>

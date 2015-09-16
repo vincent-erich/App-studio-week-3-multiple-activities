@@ -32,155 +32,83 @@
         android:columnCount="2"
         android:orientation="horizontal">
 
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginEnd="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_chandler">
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/chandlerpreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickChandler"
+            android:id="@+id/text_view_chandler"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/chandlerpreview"
-                android:onClick="onClickChandler"
-                android:id="@+id/image_view_chandler"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_chandler"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             android:layout_marginStart="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_joey">
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/joeypreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickJoey"
+            android:id="@+id/text_view_joey"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/joeypreview"
-                android:onClick="onClickJoey"
-                android:id="@+id/image_view_joey"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_joey"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginEnd="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_monica">
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/monicapreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickMonica"
+            android:id="@+id/text_view_monica"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/monicapreview"
-                android:onClick="onClickMonica"
-                android:id="@+id/image_view_monica"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_monica"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             android:layout_marginStart="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_phoebe">
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/phoebepreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickPhoebe"
+            android:id="@+id/text_view_phoebe"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/phoebepreview"
-                android:onClick="onClickPhoebe"
-                android:id="@+id/image_view_phoebe"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_phoebe"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginRight="5dp"
             android:layout_marginEnd="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_rachel">
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/rachelpreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickRachel"
+            android:id="@+id/text_view_rachel"/>
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/rachelpreview"
-                android:onClick="onClickRachel"
-                android:id="@+id/image_view_rachel"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_rachel"/>
-
-        </LinearLayout>
-
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="5dp"
             android:layout_marginStart="5dp"
-            android:orientation="vertical"
-            android:id="@+id/linear_layout_ross">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/rosspreview"
-                android:onClick="onClickRoss"
-                android:id="@+id/image_view_ross"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/text_view_ross"/>
-
-        </LinearLayout>
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/rosspreview"
+            android:contentDescription="@string/text_description_image_main"
+            android:clickable="true"
+            android:onClick="onClickRoss"
+            android:id="@+id/text_view_ross"/>
 
     </GridLayout>
 
