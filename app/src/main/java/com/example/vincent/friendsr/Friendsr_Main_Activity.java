@@ -107,7 +107,7 @@ public class Friendsr_Main_Activity extends AppCompatActivity {
         }
 
         if (ratingMonica != initialRating) {
-            textViewMonica.setText(friendNames[2] + " " + getString(R.string.text_not_rated));
+            textViewMonica.setText(friendNames[2] + " (" + ratingMonica + ")");
         } else {
             textViewMonica.setText(friendNames[2] + " " + getString(R.string.text_not_rated));
         }
